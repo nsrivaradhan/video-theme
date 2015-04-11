@@ -1,0 +1,75 @@
+{{!< default}}
+              
+       
+ {{>header}}
+{{>footer}}
+
+<div class="">
+<main class="main_WD" role="main">
+ 
+    
+{{#post}}
+      <div class="fullSection">
+		<section class="sectionContent" id="section_{{id}}">
+            {{#has tag="slider"}}
+			<div class="container_WD">
+		    <h2 class="sectionHeader text-center">{{title}}<div class="borderBottom"></div></h2>
+                
+		       
+                    
+                         <div class="sectionImg">
+                  	  {{content}}
+            	</div>
+                </div>
+                          {{else}}
+                    <div class="container1_WD">
+                    <h2 class="sectionHeader text-center">{{title}}<div class="borderBottom"></div></h2>
+                    <div class="sectionText">
+		              {{content}}
+                      {{>contact-page}}
+                    </div>
+                    </div>
+                    {{/has}}
+            {{/is}}
+                   
+                
+            {{>footer}}
+            
+		</section>
+           </div>  
+    {{/post}}
+    
+   
+           
+           
+ 
+    </main>
+    </div>
+
+        
+  
+    
+    
+    
+          
+          
+
+          
+        
+	
+    
+   <!-- <section class="banner">
+        
+                
+    <ul>
+        <li><img src="http://www.menucool.com/slider/prod/image-slider-5.jpg" alt="img1"/></li>
+        <li><img src="http://www.menucool.com/slider/prod/image-slider-3.jpg" alt="img1"/></li>
+        <li><img src="http://www.menucool.com/slider/prod/image-slider-1.jpg" alt="img1"/></li>
+    </ul>
+
+            
+    </section>-->
+    
+      
+ 
+

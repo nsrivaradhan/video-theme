@@ -1,0 +1,101 @@
+<div class="headerSection">
+<nav class="navbar navbar-default  navbar-fixed-top" id="change_nav"  role="navigation">
+        <div class="container_nav_WD" >
+            <div class="navbar-header page-scroll logo_wd ">
+                <button type="button" class="navbar-toggle button_WD" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll " href="#top"> <img src="{{@blog.logo}}"  id="headerLogo" alt="WD Logo"/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="text-center collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav ul_wd" id="nav_WD">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    
+                       <li><a class="home_WD" href="#" style="color:white" >HOME</a></li> 
+                    
+                    {{#foreach posts}}
+                    
+                   
+                        <li class="menu_items"><a class="page-scroll title_WD" href="#section_{{id}}" >{{title}}</a></li>
+                    
+                    {{/foreach}}
+                  
+                </ul>
+                    
+                <div class="sharing_wd">
+<a href="https://www.facebook.com/{{@blog.title}}" target="_blank"><img src="/assets/images/facebook32.png" border="0" alt="Facebook"/></a>
+<a href="http://www.twitter.com/{{@blog.title}}" target="_blank"><img src="/assets/images/twitter32.png" border="0" alt="Twitter"/></a>
+<a href="https://plus.google.com/{{@blog.title}}" target="_blank"><img src="/assets/images/googleplus32.png" border="0" alt="Google+"/></a>
+<a href="https://vimeo.com/{{@blog.title}}" target="_blank"><img src="/assets/images/vimeo32.png"/></a>
+    
+
+        
+    </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+<section id="video_WD" class="videoSection">
+<!--<iframe class="video_WD" id="videoWD" src="//player.vimeo.com/video/95826676?color=4a4a4a&title=0&byline=0&portrait=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+       
+        
+    </iframe>-->
+
+<div id="loadingIcon"></div> 
+    <span> <a href="#section_4" class="downward_WD"></a></span>
+<div class="blogDes" id="blogDes"><strong class="video_text">{{@blog.description}}</strong>
+</div>
+
+<a class="play" id="play">PLAY REEL</a>  
+
+
+    
+   <!-- <div class="play_WD">PLAY</div>-->
+    
+    
+    
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
